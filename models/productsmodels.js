@@ -13,7 +13,6 @@ const productSchema = new mongoose.Schema({
 		require: [true, "Please Enter Gender"],
 		enum: {
 			values: ["Male", "Female"],
-			// values: ["Fruits", "Vegetables", "Drinks", "Foods", "Snacks"],
 			message: "Please Select Gender",
 		},
 	},
