@@ -4,6 +4,7 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
+// Confirm Password Checking
 const checkpassword = (password, confirmpassword) => {
 	return password !== confirmpassword ? false : true;
 };
